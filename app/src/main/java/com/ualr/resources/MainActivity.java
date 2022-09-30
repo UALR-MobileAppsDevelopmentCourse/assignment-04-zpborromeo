@@ -3,6 +3,7 @@ package com.ualr.resources;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 
@@ -13,6 +14,8 @@ import com.google.android.material.snackbar.Snackbar;
 // TODO 5: Initialize the text property of the TextView element with the "country_description_text" id by using the value retrieved in the previous TODO point
 
 public class MainActivity extends AppCompatActivity {
+
+    Resources res = getResources();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

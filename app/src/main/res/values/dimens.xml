@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name = "dpsize_20">20dp</dimen>
+    <dimen name = "dpsize_16">16dp</dimen>
+    <dimen name = "dpsize_24">24dp</dimen>
+    <dimen name = "dpsize_0">0dp</dimen>
+    <dimen name = "dpsize_12">12dp</dimen>
+    <dimen name = "dpsize_128">128dp</dimen>
+</resources>
