@@ -16,6 +16,7 @@ import com.google.android.material.snackbar.Snackbar;
 public class MainActivity extends AppCompatActivity {
 
     Resources res = getResources();
+    String description = getString(R.string.country_descrip);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
