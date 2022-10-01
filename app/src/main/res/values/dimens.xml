@@ -6,4 +6,5 @@
     <dimen name = "dpsize_0">0dp</dimen>
     <dimen name = "dpsize_12">12dp</dimen>
     <dimen name = "dpsize_128">128dp</dimen>
+    <dimen name = "dpsize_64">64dp</dimen>
 </resources>
