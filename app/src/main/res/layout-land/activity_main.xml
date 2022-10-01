@@ -23,7 +23,7 @@
             style="@style/AppTheme.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dpsize_128"
+            android:layout_marginTop="@dimen/dpsize_12"
             android:background="@color/button_color"
             android:text="@string/lesson_learnt_label"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -34,8 +34,8 @@
         <ImageView
             android:id="@+id/country_image"
             android:layout_width="@dimen/dpsize_128"
-            android:layout_height="0dp"
-            android:src="@mipmap/ic_spain"
+            android:layout_height="@dimen/dpsize_0"
+            android:src="@drawable/ic_country"
             app:layout_constraintDimensionRatio="H, 1:1"
             app:layout_constraintEnd_toStartOf="@+id/guideline"
             app:layout_constraintStart_toStartOf="parent"
@@ -45,9 +45,9 @@
         <TextView
             android:id="@+id/country_description_text"
             style="@style/AppTheme.LongText"
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/dpsize_0"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/dpsize_0"
+            android:layout_marginStart="@dimen/dpsize_12"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.25"
@@ -69,12 +69,12 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/dpsize_0"
             android:layout_height="@dimen/dpsize_0"
-            android:layout_marginTop="@dimen/dpsize_64"
-            android:layout_marginEnd="@dimen/dpsize_64"
+            android:layout_marginTop="@dimen/dpsize_12"
+            android:layout_marginEnd="@dimen/dpsize_12"
             android:scaleType="fitEnd"
-            android:src="@drawable/ic_country"
+            android:src="@drawable/country_bitmap"
             app:layout_constraintEnd_toStartOf="@+id/guideline"
             app:layout_constraintTop_toBottomOf="@+id/country_title_text" />
 
