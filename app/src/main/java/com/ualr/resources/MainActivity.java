@@ -3,6 +3,7 @@ package com.ualr.resources;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -20,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView = (TextView) findViewById(R.id.country_description_text);
         textView.setText(R.string.country_descrip);
+    }
+
+    public void onLessonLearntClicked(View view){
     }
 }
 
