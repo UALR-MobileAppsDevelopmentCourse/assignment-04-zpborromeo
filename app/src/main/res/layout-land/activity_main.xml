@@ -60,7 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/country_title"
-            android:textColor="@color/button_color_clicked"
+            android:textColor="@color/button_color"
             app:layout_constraintEnd_toEndOf="@+id/country_image"
             app:layout_constraintHorizontal_chainStyle="packed"
             app:layout_constraintStart_toStartOf="@+id/country_image"

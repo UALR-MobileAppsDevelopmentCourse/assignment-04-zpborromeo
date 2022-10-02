@@ -5,6 +5,4 @@
     <color name="colorPrimary">#3498db</color>
     <color name="colorPrimaryDark">#2980b9</color>
     <color name="colorAccent">#27ae60</color>
-    <color name="button_color">#3498db</color>
-    <color name="button_color_clicked">#27ae60</color>
 </resources>
