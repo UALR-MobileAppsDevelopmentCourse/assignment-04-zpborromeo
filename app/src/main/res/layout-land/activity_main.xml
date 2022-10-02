@@ -23,12 +23,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/dpsize_12"
-            android:background="@color/button_color"
+            android:backgroundTint="@color/button_color"
             android:text="@string/lesson_learnt_label"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/country_description_text"
             app:layout_constraintTop_toBottomOf="@+id/country_description_text" />
 
+
+        <!-- android:onClick="onLessonLearntClicked"-->
 
         <ImageView
             android:id="@+id/country_image"
